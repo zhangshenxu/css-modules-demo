@@ -1,0 +1,28 @@
+{
+  "name": "css-modules-demo",
+  "version": "0.0.1",
+  "description": "demo",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "test": "webpack"
+  },
+  "pre-commit": [],
+  "repository": {},
+  "keywords": [],
+  "devDependencies": {
+    "autoprefixer-core": "^5.1.11",
+    "babel-core": "^5.2.17",
+    "babel-loader": "^5.0.0",
+    "css-loader": "^0.15.1",
+    "extract-text-webpack-plugin": "^0.8.1",
+    "file-loader": "^0.8.4",
+    "postcss-loader": "^0.4.3",
+    "raw-loader": "^0.5.1",
+    "react": "^0.13.3",
+    "style-loader": "^0.12.3",
+    "url-loader": "^0.5.6",
+    "webpack": "^1.9.10",
+    "webpack-dev-server": "^1.9.0"
+  },
+  "dependencies": {}
+}
