@@ -1,28 +1,28 @@
-.common{
+.common {
+  font-size: 16px;
   border: 1px solid transparent;
   color: #fff;
-  composes: padding-large from '../Share/layout.css';
-  border-radius: 10px;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 10px;
   text-align: center;
   cursor: pointer;
-  composes: shadow from '../Share/layout.css';
 }
-.warning{
+.warning {
   background-color: #f0ad4e;
   composes: common;
 }
-.success{
+.success {
   background-color: #5cb85c;
   composes: common;
 }
-.primary{
+.primary {
   background-color: #0275d8;
   composes: common;
 }
-.secondary{
-  background-color: #fff;
-  composes: common;
-}
-.common:hover{
+.common:hover {
   color: red;
+}
+.num{
+  padding: 10px;
 }

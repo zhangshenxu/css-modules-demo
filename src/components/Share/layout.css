@@ -1,6 +1,12 @@
-.padding-large{
-  padding: 30px;
+.box {
+  border-width: 2px;
+  border-style: solid;
+  padding: 0 20px;
+  margin: 0 6px;
 }
-.shadow{
-  box-shadow: 3px -3px 3px #eee;
+.heading {
+  background-color: #ccc;
+}
+.useless {
+  color: red;
 }
